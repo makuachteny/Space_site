@@ -1,30 +1,43 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <!-- Header Section of the page -->
-<header>
-  <img src="assets/images/spacex.png" alt="logo" id="logo">
-  <div>
-    <input type="checkbox" id="menuCheckbox">
-    <label for="menuCheckbox" id="menuButton">
-      <img src="assets/images/nav-btn.png" alt="menu">
-    </label>
-    <ul id="menuNavigation">
-      <li><a href="#">FALCON 9</a></li>
-      <li><a href="#">FALCON HEAVY</a></li>
-      <li><a href="#">DRAGON</a></li>
-      <li><a href="#">STARSHIP</a></li>
-      <li><a href="#">HUMAN SPACEFLIGHT</a></li>
-      <li><a href="#">RIDESHARE</a></li>
-    </ul>
-  </div>
-</header>
-
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section of the page -->
+    <header>
+      <img src="assets/images/spacex.png" alt="logo" id="logo" class="white" />
+      <div class="menu">
+        <input type="checkbox" id="menuCheckbox" />
+        <label for="menuCheckbox" id="menuButton">
+          <img src="assets/images/nav-btn.png" alt="menu" />
+        </label>
+        <ul id="menuNavigation">
+          <li><a href="#">FALCON 9</a></li>
+          <li><a href="#">FALCON HEAVY</a></li>
+          <li><a href="#">DRAGON</a></li>
+          <li><a href="#">STARSHIP</a></li>
+          <li><a href="#">HUMAN SPACEFLIGHT</a></li>
+          <li><a href="#">RIDESHARE</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h2>UPCOMING LAUNCH</h2>
+        <h1>STARLINK MISSION</h1>
+        
+        <div>
+          <img src="assets/images/spaceteam.gif" 
+               alt="spaceteam in space" 
+               class="gif"/>
+               
+        </div>
+          <button class="btn">WATCH</button>
+      </div>
+    </section>
+  </body>
 </html>
